@@ -1,0 +1,12 @@
+#!/usr/local/bin/node
+
+const path = require('path')
+
+if (!process.argv[2]) {
+    let scriptname = path.basename(__filename)
+    console.log(`usage: ${scriptname} <number>`)
+    console.log(`   eg: ${scriptname} 1`)
+    process.exit()
+}
+
+require('../index.js').run(process.argv[2])

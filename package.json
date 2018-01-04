@@ -1,0 +1,21 @@
+{
+  "name": "aoc2016",
+  "version": "1.0.0",
+  "description": "http://adventofcode.com/2016",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NetCuras/node-core.git"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "debug": "^3.1.0",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
