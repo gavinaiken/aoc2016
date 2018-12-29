@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NetCuras/node-core.git"
+    "url": "https://github.com/gavinaiken/aoc2018.git"
   },
   "dependencies": {
     "chai": "^4.1.2",
